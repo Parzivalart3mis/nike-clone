@@ -76,7 +76,7 @@ const Home = () => {
                     className="black-bg-man-image"
                 />
             </div>
-
+            <h1>Shop The Classics</h1>
             {/* New Card Slider Section */}
             <CardSlider />
         </div>

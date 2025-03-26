@@ -4,6 +4,7 @@ import { FaSearch, FaHeart, FaShoppingCart } from "react-icons/fa";
 import { SiJordan } from "react-icons/si"; // Jordan icon
 import { GiConverseShoe } from "react-icons/gi"; // Converse shoe icon
 import '../styles/Navbar.css';
+import nikeLogo from "../assets/nike-logo.png";
 
 function Navbar() {
     return (
@@ -34,7 +35,7 @@ function Navbar() {
                 {/* Left - Logo */}
                 <div className="nav-left">
                     <Link to="/">
-                        <img src="../assets/nike-logo.png" alt="Nike" className="nike-logo" />
+                        <img src={nikeLogo} alt="Nike" className="nike-logo"/>
                     </Link>
                 </div>
 

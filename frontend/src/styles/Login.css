@@ -1,0 +1,82 @@
+/* Container */
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+/* Logo Section */
+.logo-section {
+    margin-bottom: 20px;
+}
+
+.nike-logo {
+    width: 100px;
+}
+
+/* Form Section */
+.form-section {
+    text-align: center;
+}
+
+.form-title {
+    font-family: 'Futura', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.country-info {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.change-link {
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Email Input */
+.email-input {
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Terms Info */
+.terms-info {
+    font-size: 1rem; /* Increased font size */
+    color: #666;
+    margin-bottom: 20px; /* Space between terms and button */
+}
+
+/* Continue Button */
+.continue-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.continue-button:hover {
+    background-color: #333;
+}
+
+.link {
+    color: #000;
+    text-decoration: underline;
+}
+
+.nike-logo {
+    width: 50px;  /* Adjust the width as needed */
+    height: auto;  /* Maintains aspect ratio */
+}
