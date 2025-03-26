@@ -24,7 +24,7 @@ function Navbar() {
                     <span className="divider">|</span>
                     <Link to="/help">Help</Link>
                     <span className="divider">|</span>
-                    <Link to="/join">Join Us</Link>
+                    <Link to="/join-us">Join Us</Link>
                     <span className="divider">|</span>
                     <Link to="/login">Sign In</Link>
                 </div>
