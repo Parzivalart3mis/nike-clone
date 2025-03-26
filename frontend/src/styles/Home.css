@@ -1,0 +1,126 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px; /* Reduced padding */
+}
+
+.image-section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; /* Reduced spacing below the image */
+}
+
+.home-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-section {
+    text-align: center;
+}
+
+.player-name {
+    font-family: 'Futura', sans-serif; /* Apply Futura font */
+    font-size: 1.2rem; /* Slightly smaller font size */
+    color: #111;
+    font-weight: 500;
+    margin-bottom: 0px; /* Reduced spacing below player name */
+}
+
+.headline {
+    font-family: 'Futura', sans-serif; /* Apply Futura font */
+    font-size: 3.5rem; /* Increased size for "EYES ON THE PRIZE" */
+    color: #111;
+    font-weight: bold;
+}
+
+.quote {
+    font-family: 'Futura', sans-serif; /* Apply Futura font */
+    font-size: 1.25rem;
+    color: #666;
+    margin: 0; /* Remove default margin */
+}
+
+/* Side-by-side images section */
+.side-by-side-images {
+    display: flex;
+    justify-content: center;
+    gap: 0px; /* Space between the two cards */
+    margin-top: 0px; /* Space above this section */
+}
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative; /* Needed for absolute positioning */
+}
+
+.side-image {
+    width: 100%;
+    max-width: 1000px; /* Limit image width for responsiveness */
+    border-radius: 0px; /* Optional rounded edges */
+}
+
+.image-text {
+    margin-top: 10px; /* Space between image and text */
+}
+
+/* Button positioning */
+.cta-button {
+    position: absolute;
+    top: 85%; /* Move up */
+    left: 3.7%; /* Move to the left */
+    padding: 15px 30px;
+    background-color: #fff; /* Change background to white */
+    color: #111; /* Change text color to black */
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem; /* Increase text size */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Below images section */
+.below-images {
+    display: flex;
+    justify-content: center;
+    gap: 0px; /* Space between the two cards */
+    margin-top: 0px; /* Space above this section */
+}
+
+/* NIKE Collection Section */
+.nike-collection-section {
+    margin-top: 20px; /* Add spacing above this section */
+}
+
+.nike-shop-button {
+    margin-top: 10px;
+}
+
+/* Black Background Man Section */
+.black-bg-man-section {
+    width: 100%;
+}
+
+.black-bg-man-image {
+    width: 100%;
+}
+
+/* Black Background Shop Button Styling */
+.black-bg-shop-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.black-bg-shop-button:hover {
+    background-color: #333; /* Darker shade on hover */
+}

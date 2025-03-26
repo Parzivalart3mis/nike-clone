@@ -1,0 +1,44 @@
+.card-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.slider-arrow {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.cards-container-wrapper {
+    overflow: hidden;
+    width: 80%;
+}
+
+.cards-container {
+    display: flex;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 300px;      /* Fixed image width */
+    margin: 0 10px;    /* Horizontal margins (effective width: 220px) */
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-name {
+    margin-top: 10px;
+    font-family: 'Futura', sans-serif;
+    font-size: 1.2rem;
+    color: #111;
+}
